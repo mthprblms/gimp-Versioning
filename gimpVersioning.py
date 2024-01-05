@@ -30,7 +30,9 @@ def save_version_history(image, drawable):
         json.dump(version_history, file)
 
 def your_plugin_function(image, drawable):
-    # Your plugin logic goes here
+    # Create logic
+    #
+    #
 
     # Log the version after each change
     log_version(image, 'your_action_type')
